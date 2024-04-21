@@ -18,7 +18,7 @@ st.markdown(
 
     Use linear regression when your target is a continuous value, and logistic regression when solving a classification problem
 
-    **👈 Select a the type of regression** 
+    **👈 Select a type of regression** 
 """
 )
 
