@@ -144,6 +144,19 @@ if uploaded_file is not None:
         name='Pred',
         showlegend=True
     ))
+
+    fig.update_layout(scene=dict(
+    xaxis=dict(title=X_label),
+    yaxis=dict(title=Y_label),
+    zaxis=dict(title=target)
+    ))
+
+    fig.update_layout(scene=dict(
+    xaxis=dict(title=X_label),
+    yaxis=dict(title=Y_label),
+    zaxis=dict(title=target)
+    ))
+
        # Определение меток осей
     fig.update_layout(showlegend=True)
     fig.update_layout(
